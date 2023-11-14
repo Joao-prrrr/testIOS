@@ -9,6 +9,8 @@
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
 </widget>
-<edit-config file="*-Info.plist" mode="merge" target="NSContactsUsageDescription">
-    <string>Autoriser l'accès au contact</string>
-</edit-config>
+<platform name="ios">
+    <edit-config file="*-Info.plist" mode="merge" target="NSContactsUsageDescription">
+        <string>Autoriser l'accès au contact</string>
+    </edit-config>
+</platform>
