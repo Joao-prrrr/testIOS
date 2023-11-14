@@ -1,0 +1,31 @@
+{
+  "name": "ch.cfpt.test.ios",
+  "displayName": "iosTest",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@starley/barcodescanner-sdk31": "^8.1.2",
+    "cordova-ios": "^7.0.1"
+  },
+  "cordova": {
+    "plugins": {
+      "phonegap-plugin-barcodescanner": {},
+      "cordova-plugin-add-swift-support": {}
+    },
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "cordova-plugin-add-swift-support": "2.0.2"
+  }
+}
