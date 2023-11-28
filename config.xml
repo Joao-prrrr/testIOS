@@ -9,6 +9,14 @@
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
 </widget>
-<edit-config file="*-Info.plist" mode="merge" target="NSContactsUsageDescription">
-    <string>your text</string>
-</edit-config>
+<platform name="ios">
+    <edit-config file="*-Info.plist" mode="merge" target="NSContactsUsageDescription">
+        <string>Autoriser l'accès au contact</string>
+    </edit-config>
+    <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+    <string>To scan barcodes</string>
+    </edit-config>
+</platform>
+
+<!-- add a version here, otherwise PGB will use whatever the latest version of the package on npm is -->
+<plugin name="phonegap-plugin-barcodescanner" />
