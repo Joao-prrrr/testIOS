@@ -14,7 +14,8 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@starley/barcodescanner-sdk31": "^8.1.2",
-    "cordova-ios": "^7.0.1"
+    "cordova-ios": "^7.0.1",
+    "phonegap-plugin-barcodescanner": "^8.1.0"
   },
   "cordova": {
     "plugins": {
