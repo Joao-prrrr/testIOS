@@ -6,5 +6,13 @@ class Contact {
         this.phone = phone;
     }
 
+    static GetAllContacts() {
+        ContactsX.getAllContacts(function(contacts) {
+            return contacts;
+        }, function(error) {
+            return error;
+        });
+        
+    }
 
 }
