@@ -1,8 +1,10 @@
-import Contacts from './Contacts.js';
+//import Contacts from './Contacts.js';
 
-const readAllContactsBtn = document.getElementById('readAllContacts');
+alert("tst")
 
-readAllContactsBtn.addEventListener('click', () => {
-    let contactsArray = Contacts.readAllContacts();
-    console.log(contactsArray);
-});
+//const readAllContactsBtn = document.getElementById('readAllContacts');
+//
+//readAllContactsBtn.addEventListener('click', () => {
+//    let contactsArray = Contacts.readAllContacts();
+//    console.log(contactsArray);
+//});
